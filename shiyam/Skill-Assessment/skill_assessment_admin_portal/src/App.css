@@ -1,0 +1,81 @@
+.top-nav{
+  background: linear-gradient(138.51deg, #F8FDFF 59.84%, #F6FAEF 116.14%);
+  grid-column: span 10;
+  grid-row: span 1;
+  height: 30%;
+  display: grid;
+  grid-template-columns: repeat(36,1fr);
+  grid-template-rows: repeat(12,1fr);
+}
+
+.top-nav > h1{
+  /* Welcome, Admin! */
+  position: relative;
+  /* H1 heading/Semibold/24px */
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 120%;
+  /* identical to box height */
+  /* TEXT_COLOR/TEXT-800 */
+  color: #242D35;
+  grid-column-start: 2;
+  grid-column-end: 10;
+  grid-row-start: 4;
+  grid-row-end: 6;
+}
+.top-nav > span{
+  /* View complete details of all location and its corresponding details. */
+  position: relative;
+  /* Caption/Regular/13px */
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70%;
+  line-height: 18px;
+  /* identical to box height */
+  /* TEXT_COLOR/TEXT-400 */
+  color: #A8B0B9;
+  grid-column-start: 2;
+  grid-column-end: 14;
+  grid-row-start: 7;
+  grid-row-end: 9;
+}
+.top-nav > input{
+  /* Rectangle 158 */
+  box-sizing: border-box;
+  position: relative;
+  /* TEXT_COLOR/TEXT-400 */
+  border: 1px solid #A8B0B9;
+  background-color: transparent;
+  border-radius: 8px;
+  grid-column-start: 20;
+  grid-column-end: 28;
+  /* padding: 1%; */
+  padding-left: 5%;
+  grid-row-start: 5;
+  grid-row-end: 9;
+}
+
+.top-nav > svg{
+  grid-column-start: 29;
+  grid-column-end: 30;
+  grid-row-start: 6;
+  grid-row-end: 9;
+}
+
+.profile-img{
+  width: 42px;
+  height: 42px;
+  grid-column-start: 30;
+  grid-column-end: 31;
+  grid-row-start: 5;
+  grid-row-end: 9;
+}
+.profile-name{
+  grid-column-start: 31;
+  grid-column-end: 36;
+  grid-row-start: 6;
+  grid-row-end: 9;
+  /* margin-left: 5%; */
+}
