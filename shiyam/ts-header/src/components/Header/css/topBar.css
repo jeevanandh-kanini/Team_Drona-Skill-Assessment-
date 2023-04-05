@@ -1,0 +1,49 @@
+.top-bar-head{
+    font-family: 'Manrope';
+    font-weight: 700;
+    color: #242D35;
+    position: relative;
+    top: 10%;
+}
+.top-bar-context{
+
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+
+    color: #A8B0B9;
+    position: relative;
+    top: 10%;
+}
+
+.profile-name{
+    
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    position: relative;
+    top: 50%;
+    color: #242D35;
+
+
+}
+
+/* .{
+    /* Rectangle 11917 
+
+position: absolute;
+left: 15.62%;
+right: 0%;
+top: 0%;
+bottom: 89.44%;
+
+background: linear-gradient(138.51deg, #F8FDFF 59.84%, #F6FAEF 116.14%);
+
+} */
+
+/* Rectangle 158 */
+
+
+
